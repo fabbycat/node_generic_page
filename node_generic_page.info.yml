@@ -4,7 +4,7 @@ description: 'A generic content, node, type that provides a textarea with a summ
 # lifecycle:
 # lifecycle_link:
 # project status url:
-package: Site structure
+package: Shared fields
 type: module
 core_version_requirement:  ^11 || ^12
 php: 8.3
@@ -17,7 +17,7 @@ dependencies:
   - drupal:text
   - drupal:user
   - drupal:views
-  - fields_node_global:fields_node_global
+  - field_global_text_with_summary:field_global_text_with_summary
 # test_dependencies:
 # configure:
 # configure_parameters:

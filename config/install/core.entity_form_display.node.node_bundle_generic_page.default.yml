@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.node_bundle_generic_page.field_global_textarea
+    - field.field.node.node_bundle_generic_page.field_global_text_with_summary
     - node.type.node_bundle_generic_page
   module:
     - path
@@ -23,7 +23,7 @@ content:
     third_party_settings: {}
 
   # USER: Main Content
-  field_global_textarea:
+  field_global_text_with_summary:
     type: text_textarea
     weight: 5
     region: content

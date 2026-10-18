@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_global_textarea
+    - field.storage.node.field_global_text_with_summary
     - node.type.node_bundle_generic_page
   module:
     - field
     - node
     - text
-id: node.node_bundle_generic_page.field_global_textarea
-field_name: field_global_textarea
+id: node.node_bundle_generic_page.field_global_text_with_summary
+field_name: field_global_text_with_summary
 entity_type: node
 bundle: node_bundle_generic_page
 label: Content

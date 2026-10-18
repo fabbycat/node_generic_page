@@ -3,7 +3,7 @@ status: true
 dependencies:
   module:
     - node
-    - fields_node_global
+    - field_global_text_with_summary
 type: node_bundle_generic_page
 name: 'Generic Page'
 module: node_generic_page
