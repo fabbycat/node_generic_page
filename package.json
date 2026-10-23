@@ -1,5 +1,5 @@
 {
-    "name": "node_generic_page",
+    "name": "node_generic_page NodeJS development tools",
     "description": "A generic content, node, type for Drupal. It provides a textarea with a summary and title field.",
     "type": "module",
     "devDependencies": {
